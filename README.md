@@ -20,10 +20,7 @@ sudo systemctl stop apache2
 CHANGE USER
 sudo chown -R $USER: .
 
-CLONE GIT / LEVANTAR EN LOCAL
-ddev start
-ddev composer install
-ddev import-db --src=db.andre.sql.gz
+
 
 
 composer create-project drupal/recommended-project andred9 --ignore-platform-reqs
@@ -35,3 +32,12 @@ composer create-project drupal/recommended-project andrekravitz.com --ignore-pla
   265  ll
   266  ddev config
   267  ddev start
+
+```
+{
+  CLONE GIT / LEVANTAR EN LOCAL
+ddev start
+ddev composer install
+ddev import-db --src=db.andre.sql.gz
+}
+```
