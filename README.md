@@ -1,8 +1,18 @@
 
-git config --global user.name "AndreKravitz"
+
+
+	`git config --global user.name "AndreKravitz"`
+
+
 git config --global user.email "tumiandrekravitz@gmail.com"
+
+
 git config --global color.ui true
+
+
 git config --global core.editor emacs
+
+
    
 sudo systemctl stop apache2
 
