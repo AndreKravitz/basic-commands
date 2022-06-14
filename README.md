@@ -1,6 +1,6 @@
 
 
-#set git user name
+# set git user name
 
 	`git config --global user.name "AndreKravitz"`
 
