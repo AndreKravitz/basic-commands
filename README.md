@@ -13,7 +13,7 @@
  
 `sudo systemctl stop apache2 `
 
-#CHANGE USER
+# CHANGE USER
 `sudo chown -R $USER: . `
 
 
@@ -28,7 +28,7 @@
 
 ```
 {
-  #CLONE GIT / LEVANTAR EN LOCAL
+  CLONE GIT / LEVANTAR EN LOCAL
 ddev start
 ddev composer install
 ddev import-db --src=db.andre.sql.gz
