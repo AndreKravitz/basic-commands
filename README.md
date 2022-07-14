@@ -1,4 +1,5 @@
-
+# Brand new Drupal 9 project (with composer)
+  `composer create-project drupal/recommended-project my_site_name_dir`
 
 # set git user name
 
