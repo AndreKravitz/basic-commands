@@ -1,6 +1,9 @@
 # Brand new Drupal 9 project (with composer)
   `composer create-project drupal/recommended-project my_site_name_dir`
 
+# Install Drush 
+  ddev composer require drush/drush
+
 # set git user name
 
 	`git config --global user.name "AndreKravitz"`
